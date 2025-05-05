@@ -1,0 +1,22 @@
+.task-form {
+  margin-bottom: 25px;
+}
+
+.task-form-container {
+  display: flex;
+  gap: 10px;
+}
+
+.add-task-btn {
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .task-form-container {
+    flex-direction: column;
+  }
+  
+  .add-task-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.atom-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.atom-button:hover {
+  background-color: #2980b9;
+}
+
+.atom-button:active {
+  transform: scale(0.98);
+}
+
+.atom-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.atom-button.danger {
+  background-color: #e74c3c;
+}
+
+.atom-button.danger:hover {
+  background-color: #c0392b;
+}

@@ -1,0 +1,11 @@
+.todo-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3498db, #9b59b6);
+  padding: 40px 20px;
+}
+
+@media (max-width: 650px) {
+  .todo-page {
+    padding: 20px 10px;
+  }
+}

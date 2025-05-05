@@ -1,0 +1,44 @@
+.todo-template {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todo-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.todo-header h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin: 0;
+}
+
+.todo-main {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.clear-tasks {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.clear-completed-btn {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 650px) {
+  .todo-template {
+    padding: 10px;
+  }
+  
+  .todo-main {
+    padding: 15px;
+  }
+}
